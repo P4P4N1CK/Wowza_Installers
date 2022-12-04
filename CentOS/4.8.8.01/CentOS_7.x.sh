@@ -67,8 +67,8 @@ sleep 2
 echo "time to download wowza"
 sleep 2
 cd /tmp
-wget https://www.wowza.com/downloads/WowzaStreamingEngine-4-8-8-01/WowzaStreamingEngine-4.8.8.01-linux-x64-installer.run
-chmod +x WowzaStreamingEngine-4.8.8.01-linux-x64-installer.run
+wget https://wowza.vn/WowzaStreamingEngine-4.8.17+1-linux-x64-installer.run
+chmod +x WowzaStreamingEngine-4.8.17+1-linux-x64-installer.run
 
 #run installer
 #clear
@@ -77,7 +77,7 @@ echo "You have to press ENTER several times to get through the License agreement
 echo "You also have to set a uername and password"
 echo "The installation starts in 5 seconds"
 sleep 5
-sudo ./WowzaStreamingEngine-4.8.8.01-linux-x64-installer.run
+sudo ./WowzaStreamingEngine-4.8.17+1-linux-x64-installer.run
 
 #agree to agreement by pressing enter multiple times 	| Press [Enter] to continue:
 # accept agreement										| Do you accept this agreement? [y/n]:
